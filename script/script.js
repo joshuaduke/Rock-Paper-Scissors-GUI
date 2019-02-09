@@ -170,6 +170,7 @@ playAgain.addEventListener("click", function()
     compRes.innerHTML = 0;
   }
   endgame.innerHTML = "...Loading...";
+  endgame.style.fontSize = "120%";
   compImg.innerHTML =  "";
   playAgain.classList.remove("playAgain");
 
