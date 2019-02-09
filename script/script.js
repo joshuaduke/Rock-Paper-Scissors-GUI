@@ -157,8 +157,8 @@ function disableImgs()
     imgList[i].classList.add("disable");
     imgContainer.classList.remove("pointer");
   }
-
 }
+
  //code play again button
 playAgain.addEventListener("click", function()
 {
@@ -169,8 +169,8 @@ playAgain.addEventListener("click", function()
     userRes.innerHTML = 0;
     compRes.innerHTML = 0;
   }
-  endgame.innerHTML = "...Loading...";
-  endgame.style.fontSize = "120%";
+  endgame.innerHTML = "👀👀👀";
+  endgame.style.fontSize = "200%";
   compImg.innerHTML =  "";
   playAgain.classList.remove("playAgain");
 
@@ -204,6 +204,7 @@ function main()
     game("spock");
   })
 }
+
 //add modal for rules
 modalBtn.addEventListener("click", function()
 {
