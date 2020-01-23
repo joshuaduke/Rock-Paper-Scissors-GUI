@@ -126,7 +126,6 @@ main{
 }
 
 .userImg:hover{
-  border:3px solid var(--greyish);
   transform:scale(1.1);
 }
 .opnImg{
