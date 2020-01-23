@@ -89,7 +89,7 @@ main{
 
 #modal{
   position: relative;
-  top:-85px;
+  top:-65px;
   left:380px;
   font-weight:bold;
   color:var(--lightBlue);
@@ -292,7 +292,7 @@ li:nth-child(odd){
   }
 
   #modal{
-    top:-71px;
+    top:-55px;
     left:290px;
   }
 
