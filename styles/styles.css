@@ -41,16 +41,18 @@ h1{
 }
 
 h2{
-  padding:0 5px;
+  padding:10px 0 0 0;
+  margin:0;
   line-height:1.5em;
   color:var(--whiteish);
   text-shadow:2px 2px 5px var(--dark);
 }
 
 h3{
-  font-size:200%;
+  font-size:1.2rem;
   color:var(--greyish);
   text-shadow: 0 2px 3px var(--lightBlue);
+  margin:0;
 }
 
 h4{
@@ -79,7 +81,6 @@ main{
   width:430px;
   margin:0 auto;
   height:auto;
-  border:;
   background-color:var(--aquaBlue);
   border-radius:5px;
   border:10px dashed var(--dark);
@@ -125,7 +126,7 @@ main{
 }
 
 .userImg:hover{
-  border:5px solid var(--greyish);
+  border:3px solid var(--greyish);
   transform:scale(1.1);
 }
 .opnImg{
@@ -164,9 +165,10 @@ img{
   font-family: 'Press Start 2P', cursive;
   font-size:0.6rem;
   line-height: 1rem;
-  margin:5px 10px;
-  margin-bottom:30px;
+  margin:10px;
+  margin-bottom:20px;
   cursor:pointer;
+  transition:all 0.5s;
 }
 
 .btn:focus{
@@ -174,7 +176,9 @@ img{
 }
 
 .btn:hover{
-  box-shadow:1px 1px 5px 2px var(--greyish) ;
+  background-color: var(--greyish);
+  box-shadow:1px 2px var(--darkBlue);
+  color:var(--lightBlue);
 }
 
 .selected{
@@ -252,6 +256,8 @@ li:nth-child(odd){
 @media only screen and (max-width: 500px){
   #container {
     width:340px;
+    background-color:var(--aquaBlue);
+    /* height:340px; */
   }
 
   .imgContainer{
@@ -274,7 +280,7 @@ li:nth-child(odd){
   }
 
   #endgame{
-    font-size:140%;
+    font-size:1.2rem;
     margin:0;
     margin-bottom:10px;
     padding:0;
